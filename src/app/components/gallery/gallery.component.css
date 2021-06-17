@@ -1,0 +1,136 @@
+/*  Extra small devices (portrait phones, less than 576px)  */
+@media (min-width: 320px) {
+  .column {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: min-content;
+  }
+
+  .column img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .column {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 60%;
+    align-self: auto;
+  }
+
+  .column img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+
+    margin: 8px;
+    border-radius: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+  .column {
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 80%;
+  }
+
+  .column img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .column {
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 80%;
+  }
+
+  .column img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .column {
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 70%;
+  }
+
+  .column img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+}

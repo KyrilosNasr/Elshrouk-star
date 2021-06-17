@@ -1,0 +1,588 @@
+/*  Extra small devices (portrait phones, less than 576px)  */
+@media (min-width: 320px) {
+
+  div {
+    display: grid;
+    grid-template-columns: 150 100;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  div .img1 {
+  width: 300px;
+  display: inline-block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 260px;
+
+  }
+  div .img2 {
+    width: 60px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+    }
+  ul {
+      list-style-type: none;
+      margin: 10px;
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 7px;
+      margin-left: 5%;
+  }
+
+
+  /* Creates a horizontal list with spacing*/
+
+  li {
+      display: inline-block;
+      margin-right: 1px;
+      padding-bottom: 3px;
+  }
+
+
+  /*Style for menu links */
+
+  li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background: orangered;
+      text-decoration: none;
+  }
+
+
+  /* Hover State for top level links*/
+
+  li:hover a {
+      background: green;
+  }
+
+
+  /* Style for dropdown links*/
+
+  li:hover ul a {
+      background: #f3f3f3;
+      color: #2f3036;
+      height: 40px;
+      line-height: 40px;
+  }
+
+
+  /* Hover state for dropdown links */
+
+  li:hover ul a:hover {
+      background: #19c589;
+      color: #fff;
+  }
+
+
+  /*Hide dropdown links until they are need */
+
+  li ul {
+      display: none;
+  }
+
+
+  /*Make dropdown links vertical */
+
+  li ul li {
+      display: block;
+      float: none;
+  }
+
+
+  /*Prevent text wrapping */
+
+  li ul li a {
+      width: auto;
+      min-width: 100px;
+      padding: 0 20px;
+  }
+
+
+  /*Display the dropdown on hover */
+
+  ul li a:hover+.hidden,
+  .hidden:hover {
+      display: block;
+  }
+
+
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  div {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div .img1 {
+  width: 400px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 400px;
+  display: inline-block;
+  }
+  div .img2 {
+    display: inline-block;
+    width: 100px;
+    margin:10px;
+    margin-left: auto;
+    max-height: 400px;
+    float: none;
+    align-self:stretch;
+    }
+
+  ul {
+      list-style-type: none;
+      margin: 30px;
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 7px;
+      margin-left: 150px;
+  }
+
+
+  /* Creates a horizontal list with spacing*/
+
+  li {
+      display: inline-block;
+      margin-right: 1px;
+  }
+
+
+  /*Style for menu links */
+
+  li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background: orangered;
+      text-decoration: none;
+  }
+
+
+  /* Hover State for top level links*/
+
+  li:hover a {
+      background: green;
+  }
+
+
+  /* Style for dropdown links*/
+
+  li:hover ul a {
+      background: #f3f3f3;
+      color: #2f3036;
+      height: 40px;
+      line-height: 40px;
+  }
+
+
+  /* Hover state for dropdown links */
+
+  li:hover ul a:hover {
+      background: #19c589;
+      color: #fff;
+  }
+
+
+  /*Hide dropdown links until they are need */
+
+  li ul {
+      display: none;
+  }
+
+
+  /*Make dropdown links vertical */
+
+  li ul li {
+      display: block;
+      float: none;
+  }
+
+
+  /*Prevent text wrapping */
+
+  li ul li a {
+      width: auto;
+      min-width: 100px;
+      padding: 0 20px;
+  }
+
+
+  /*Display the dropdown on hover */
+
+  ul li a:hover+.hidden,
+  .hidden:hover {
+      display: block;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  div {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div .img1 {
+  width: 400px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 400px;
+  display: inline-block;
+  }
+  div .img2 {
+    display: inline-block;
+    width: 100px;
+    margin:10px;
+    margin-left: auto;
+    max-height: 400px;
+    float: none;
+    align-self:stretch;
+    }
+  ul {
+      list-style-type: none;
+      margin: 30px;
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 7px;
+      margin-left: 150px;
+  }
+
+
+  /* Creates a horizontal list with spacing*/
+
+  li {
+      display: inline-block;
+      margin-right: 1px;
+  }
+
+
+  /*Style for menu links */
+
+  li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background: orangered;
+      text-decoration: none;
+  }
+
+
+  /* Hover State for top level links*/
+
+  li:hover a {
+      background: green;
+  }
+
+
+  /* Style for dropdown links*/
+
+  li:hover ul a {
+      background: #f3f3f3;
+      color: #2f3036;
+      height: 40px;
+      line-height: 40px;
+  }
+
+
+  /* Hover state for dropdown links */
+
+  li:hover ul a:hover {
+      background: #19c589;
+      color: #fff;
+  }
+
+
+  /*Hide dropdown links until they are need */
+
+  li ul {
+      display: none;
+  }
+
+
+  /*Make dropdown links vertical */
+
+  li ul li {
+      display: block;
+      float: none;
+  }
+
+
+  /*Prevent text wrapping */
+
+  li ul li a {
+      width: auto;
+      min-width: 100px;
+      padding: 0 20px;
+  }
+
+
+  /*Display the dropdown on hover */
+
+  ul li a:hover+.hidden,
+  .hidden:hover {
+      display: block;
+  }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mini-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mini-grid img {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 160px;
+
+  }
+  ul {
+      list-style-type: none;
+      margin: 30px;
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 7px;
+      margin-left: 150px;
+  }
+
+
+  /* Creates a horizontal list with spacing*/
+
+  li {
+      display: inline-block;
+      margin-right: 1px;
+  }
+
+
+  /*Style for menu links */
+
+  li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background: orangered;
+      text-decoration: none;
+  }
+
+
+  /* Hover State for top level links*/
+
+  li:hover a {
+      background: green;
+  }
+
+
+  /* Style for dropdown links*/
+
+  li:hover ul a {
+      background: #f3f3f3;
+      color: #2f3036;
+      height: 40px;
+      line-height: 40px;
+  }
+
+
+  /* Hover state for dropdown links */
+
+  li:hover ul a:hover {
+      background: #19c589;
+      color: #fff;
+  }
+
+
+  /*Hide dropdown links until they are need */
+
+  li ul {
+      display: none;
+  }
+
+
+  /*Make dropdown links vertical */
+
+  li ul li {
+      display: block;
+      float: none;
+  }
+
+
+  /*Prevent text wrapping */
+
+  li ul li a {
+      width: auto;
+      min-width: 100px;
+      padding: 0 20px;
+  }
+
+
+  /*Display the dropdown on hover */
+
+  ul li a:hover+.hidden,
+  .hidden:hover {
+      display: block;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mini-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mini-grid img {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 160px;
+
+  }
+  ul {
+      list-style-type: none;
+      margin: 30px;
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 7px;
+    padding-left: 25%;
+  }
+
+
+  /* Creates a horizontal list with spacing*/
+
+  li {
+      display: inline-block;
+      margin-right: 1px;
+  }
+
+
+  /*Style for menu links */
+
+  li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background: orangered;
+      text-decoration: none;
+  }
+
+
+  /* Hover State for top level links*/
+
+  li:hover a {
+      background: green;
+  }
+
+
+  /* Style for dropdown links*/
+
+  li:hover ul a {
+      background: #f3f3f3;
+      color: #2f3036;
+      height: 40px;
+      line-height: 40px;
+  }
+
+
+  /* Hover state for dropdown links */
+
+  li:hover ul a:hover {
+      background: #19c589;
+      color: #fff;
+  }
+
+
+  /*Hide dropdown links until they are need */
+
+  li ul {
+      display: none;
+  }
+
+
+  /*Make dropdown links vertical */
+
+  li ul li {
+      display: block;
+      float: none;
+  }
+
+
+  /*Prevent text wrapping */
+
+  li ul li a {
+      width: auto;
+      min-width: 100px;
+      padding: 0 20px;
+  }
+
+
+  /*Display the dropdown on hover */
+
+  ul li a:hover+.hidden,
+  .hidden:hover {
+      display: block;
+  }
+
+
+}

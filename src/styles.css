@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  background-image: url("./assets/background/bg.jpg");
+  background-size: 100%;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./assets/background/bg.jpg");
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./assets/background/bg.jpg");
+}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  body {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./assets/background/bg.jpg");
+}
+ }

@@ -1,0 +1,329 @@
+/*  Extra small devices (portrait phones, less than 576px)  */
+@media (min-width: 320px) {
+  .grid-container {
+    padding: 10px;
+    direction: rtl;
+  }
+  .grid-container h1{
+    display: block;
+  text-align: center;
+  color: green;
+  }
+
+  .grid-item {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      display: grid;
+      border-radius: 25px;
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid-item h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item img {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    margin: 10px;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .grid-item-2 {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      border-radius: 25px;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+  .grid-item-2 h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item-2 img {
+    align-self: auto;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .grid-container {
+    padding: 10px;
+    direction: rtl;
+  }
+  .grid-container h1{
+    display: block;
+  text-align: center;
+  color: green;
+  }
+
+  .grid-item {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      display: grid;
+      border-radius: 25px;
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid-item h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    margin: 10px;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .grid-item-2 {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      border-radius: 25px;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+  .grid-item-2 h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item-2 img {
+    align-self: auto;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .grid-container {
+    padding: 10px;
+    direction: rtl;
+  }
+  .grid-container h1{
+    display: block;
+  text-align: center;
+  color: green;
+  }
+
+  .grid-item {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      display: grid;
+      border-radius: 25px;
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid-item h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    margin: 10px;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .grid-item-2 {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      border-radius: 25px;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+  .grid-item-2 h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item-2 img {
+    align-self: auto;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .grid-container {
+    padding: 10px;
+    direction: rtl;
+  }
+  .grid-container h1{
+    display: block;
+  text-align: center;
+  color: green;
+  }
+
+  .grid-item {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      display: grid;
+      border-radius: 25px;
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid-item h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    margin: 10px;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .grid-item-2 {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      border-radius: 25px;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+  .grid-item-2 h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item-2 img {
+    align-self: auto;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .grid-container {
+    padding: 10px;
+    direction: rtl;
+  }
+  .grid-container h1{
+    display: block;
+  text-align: center;
+  color: green;
+  }
+
+  .grid-item {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      display: grid;
+      border-radius: 25px;
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid-item h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    margin: 10px;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .grid-item-2 {
+    direction: rtl;
+      border: 2px solid rgb(79, 226, 34);
+      border-radius: 25px;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+  .grid-item-2 h2{
+    color: orangered;
+    margin: 10px;
+    text-align: right;
+  }
+  .grid-item-2 img {
+    align-self: auto;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+}

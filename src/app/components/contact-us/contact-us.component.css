@@ -1,0 +1,20 @@
+.contaier {
+    padding: 20px;
+    margin: 13px;
+    direction: rtl;
+    text-align: center;
+    border: 2px solid black;
+    border-spacing: 5px;
+    border-radius: 40px;
+}
+.contaier h2{
+  color: green;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
